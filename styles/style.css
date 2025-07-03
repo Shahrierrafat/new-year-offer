@@ -1,0 +1,69 @@
+/* Main font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.merriweather-main {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.inter-main {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* new year page */
+.new-year-section {
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url('../images/Banner%20Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    height: 600px;
+    max-width: 1320px;
+    border-radius: 16px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.happy-new-year {
+    font-size: 17px;
+}
+
+.new-year-celebration {
+    font-size: 42px;
+}
+
+/* off -container */
+.off-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.off {
+    color: #FF0000;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.off-details-text {
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.off-catagory-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(7, 2, 17);
+}
