@@ -1,6 +1,7 @@
 /* Main font */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .merriweather-main {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -9,10 +10,11 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 .inter-main {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* new year page */
@@ -66,4 +68,79 @@
     font-size: 28px;
     font-weight: 700;
     color: rgb(7, 2, 17);
+}
+
+/* Mid-night section */
+.midnight-container {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.midnight-welcome {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.midnight-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.midnight-join-btn {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+/* hotel location style */
+
+.location-to-join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 16px; /* Prevent overflow on small screens */
+    background-color: #fff;
+}
+.location-hotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    width: 100%;
+    max-width: 1320px; 
+    height: 482px;
+}
+.color-text-title {
+    color: rgb(255, 0, 0);
+}
+.location-hotel>p{
+font-size: 22px;
+font-weight: 600;
+line-height: 0px;
+}
+.hotel-join-btn{
+ border-radius: 8px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-size: 15px;
+border: none;
+background-size:auto;
+width: 167px;
+height: 56px;
+margin-top: 48px;
 }
